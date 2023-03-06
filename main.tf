@@ -96,7 +96,7 @@ resource "azurerm_virtual_machine" "flask-project" {
   os_profile {
     computer_name  = "nginx1"
     admin_username = "titi"
-    admin_password = "Reborn1987"
+    admin_password = ""
   }
 
   os_profile_linux_config {
@@ -159,7 +159,7 @@ resource "azurerm_virtual_machine" "nginx2" {
   os_profile {
     computer_name  = "nginx2"
     admin_username = "titi"
-    admin_password = "Reborn1987"
+    admin_password = ""
   }
 
   os_profile_linux_config {
